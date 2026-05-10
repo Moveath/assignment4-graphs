@@ -11,7 +11,7 @@ The graph is represented using an Adjacency List. Two traversal algorithms are i
 
 ### Vertex (src/vertex.py)
 Represents a node in the graph.
-Private field: id — unique integer identifier
+Private field: id unique integer identifier
 Methods: __init__, get_id(), __str__()
 
 ### Edge (src/edge.py)
@@ -31,7 +31,7 @@ Methods: run_traversals(), run_multiple_tests(), print_results()
 
 ### BFS  Breadth-First Search
 1. Mark starting vertex as visited, add to queue
-2. While queue is not empty — dequeue, add to result, enqueue unvisited neighbors
+2. While queue is not empty dequeue, add to result, enqueue unvisited neighbors
 Use case: shortest path, level-order traversal
 Time complexity: O(V + E)
 
