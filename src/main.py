@@ -2,10 +2,8 @@ from vertex import Vertex
 from graph import Graph
 from experiment import Experiment
 def main():
-    print("=" * 55)
-    print("   Assignment 4: Graph Traversal")
-    print("=" * 55)
-    print("\n--- Small Graph (10 vertices) ---")
+    print("\nAssignment 4: Graph Traversal\n")
+    print("\n Small Graph (10 vertices)\n")
     small = Graph()
     for i in range(10):
         small.add_vertex(Vertex(i))
@@ -15,7 +13,7 @@ def main():
     small.print_graph()
     print("\nBFS from vertex 0:", small.bfs(0))
     print("DFS from vertex 0:", small.dfs(0))
-    print("\n--- Performance Experiments ---")
+    print("\n Performance Experiments")
     exp = Experiment()
     exp.run_multiple_tests(sizes=[10, 30, 100])
     exp.print_results()

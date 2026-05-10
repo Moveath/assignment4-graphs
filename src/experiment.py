@@ -33,9 +33,6 @@ class Experiment:
             result = self.run_traversals(g, 0, f"{n} vertices", show_order=show)
             self.__results.append(result)
     def print_results(self):
-        print("\n" + "=" * 55)
-        print(f"{'Graph Size':<15} {'BFS Time (ns)':>18} {'DFS Time (ns)':>18}")
-        print("=" * 55)
+        print(f"\n{'Graph Size':<15} {'BFS Time (ns)':>18} {'DFS Time (ns)':>18}\n")
         for r in self.__results:
-            print(f"{r['label']:<15} {r['bfs_time_ns']:>18,} {r['dfs_time_ns']:>18,}")
-        print("=" * 55)
+            print(f"\n{r['label']:<15} {r['bfs_time_ns']:>18,} {r['dfs_time_ns']:>18,}\n")
