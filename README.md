@@ -54,10 +54,10 @@ Results confirm expected theoretical complexity
 ## E. Screenshots
 
 ### Graph Structure
-![Graph Output](docs/screenshots/Снимок_экрана_2026-05-10_160109.png)
+![Graph Output](docs/screenshots/screenshot1.png)
 
 ### BFS, DFS and Performance
-![Experiment Results](docs/screenshots/Снимок_экрана_2026-05-10_160559.png)
+![Experiment Results](docs/screenshots/screenshot2.png)
 
 ## F. Reflection
 Working on this assignment gave me a clear understanding of BFS and DFS differences. BFS explores level by level using a queue, while DFS goes deep using recursion.
